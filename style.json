@@ -1,0 +1,104 @@
+{
+    "version": 8,
+    "name": "Swisstopo Vector Hillshade",
+    "sources": {
+        "wton": {
+            "type": "geojson",
+            "data": "wton.geojson"
+        },
+        "gton-200": {
+            "type": "geojson",
+            "data": "gton-200.geojson"
+        },
+        "gton-150": {
+            "type": "geojson",
+            "data": "gton-150.geojson"
+        },
+        "gton-100": {
+            "type": "geojson",
+            "data": "gton-100.geojson"
+        },
+        "reli-200": {
+            "type": "geojson",
+            "data": "reli-200.geojson"
+        },
+        "reli-150": {
+            "type": "geojson",
+            "data": "reli-150.geojson"
+        },
+        "reli-100": {
+            "type": "geojson",
+            "data": "reli-100.geojson"
+        },
+        "reli-50": {
+            "type": "geojson",
+            "data": "reli-50.geojson"
+        }
+    },
+    "layers": [
+        {
+            "id": "wton",
+            "type": "fill",
+            "source": "wton",
+            "paint": {
+                "fill-color": "rgb(205, 230, 190)"
+            }
+        },
+        {
+            "id": "gton-200",
+            "type": "fill",
+            "source": "gton-200",
+            "paint": {
+                "fill-color": "rgba(255, 255, 228, 0.2)"
+            }
+        },
+        {
+            "id": "gton-150",
+            "type": "fill",
+            "source": "gton-150",
+            "paint": {
+                "fill-color": "rgba(255, 255, 228, 0.2)"
+            }
+        },
+        {
+            "id": "gton-100",
+            "type": "fill",
+            "source": "gton-100",
+            "paint": {
+                "fill-color": "rgba(255, 255, 228, 0.2)"
+            }
+        },
+        {
+            "id": "reli-200",
+            "type": "fill",
+            "source": "reli-200",
+            "paint": {
+                "fill-color": "rgba(173, 188, 199, 0.2)"
+            }
+        },
+        {
+            "id": "reli-150",
+            "type": "fill",
+            "source": "reli-150",
+            "paint": {
+                "fill-color": "rgba(173, 188, 199, 0.2)"
+            }
+        },
+        {
+            "id": "reli-100",
+            "type": "fill",
+            "source": "reli-100",
+            "paint": {
+                "fill-color": "rgba(173, 188, 199, 0.2)"
+            }
+        },
+        {
+            "id": "reli-50",
+            "type": "fill",
+            "source": "reli-50",
+            "paint": {
+                "fill-color": "rgba(173, 188, 199, 0.2)"
+            }
+        }
+    ]
+}
