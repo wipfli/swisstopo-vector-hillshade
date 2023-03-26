@@ -10,6 +10,34 @@
             "type": "vector",
             "url": "https://wipfli.github.io/swiss-map/tilejson-qrank.json"
         },
+        "smr1000-gton-200": {
+            "type": "geojson",
+            "data": "SMR1000/gton-200.geojson"
+        },
+        "smr1000-gton-150": {
+            "type": "geojson",
+            "data": "SMR1000/gton-150.geojson"
+        },
+        "smr1000-gton-100": {
+            "type": "geojson",
+            "data": "SMR1000/gton-100.geojson"
+        },
+        "smr1000-reli-200": {
+            "type": "geojson",
+            "data": "SMR1000/reli-200.geojson"
+        },
+        "smr1000-reli-150": {
+            "type": "geojson",
+            "data": "SMR1000/reli-150.geojson"
+        },
+        "smr1000-reli-100": {
+            "type": "geojson",
+            "data": "SMR1000/reli-100.geojson"
+        },
+        "smr1000-reli-50": {
+            "type": "geojson",
+            "data": "SMR1000/reli-50.geojson"
+        },
         "smr500-wton": {
             "type": "geojson",
             "data": "SMR500/wton.geojson"
@@ -179,11 +207,100 @@
                 "background-color": "#f8f9fa"
             }
         },
+
+
+
+
+
+
+
+
+
+
+        {
+            "id": "smr1000-gton-200",
+            "type": "fill",
+            "source": "smr1000-gton-200",
+            "minzoom": 7,
+            "maxzoom": 10,
+            "paint": {
+                "fill-color": "rgba(255, 255, 228, 0.2)"
+            }
+        },
+        {
+            "id": "smr1000-gton-150",
+            "type": "fill",
+            "source": "smr1000-gton-150",
+            "minzoom": 7,
+            "maxzoom": 10,
+            "paint": {
+                "fill-color": "rgba(255, 255, 228, 0.2)"
+            }
+        },
+        {
+            "id": "smr1000-gton-100",
+            "type": "fill",
+            "source": "smr1000-gton-100",
+            "minzoom": 7,
+            "maxzoom": 10,
+            "paint": {
+                "fill-color": "rgba(255, 255, 228, 0.2)"
+            }
+        },
+        {
+            "id": "smr1000-reli-200",
+            "type": "fill",
+            "source": "smr1000-reli-200",
+            "minzoom": 7,
+            "maxzoom": 10,
+            "paint": {
+                "fill-color": "rgba(173, 188, 199, 0.2)"
+            }
+        },
+        {
+            "id": "smr1000-reli-150",
+            "type": "fill",
+            "source": "smr1000-reli-150",
+            "minzoom": 7,
+            "maxzoom": 10,
+            "paint": {
+                "fill-color": "rgba(173, 188, 199, 0.2)"
+            }
+        },
+        {
+            "id": "smr1000-reli-100",
+            "type": "fill",
+            "source": "smr1000-reli-100",
+            "minzoom": 7,
+            "maxzoom": 10,
+            "paint": {
+                "fill-color": "rgba(173, 188, 199, 0.2)"
+            }
+        },
+        {
+            "id": "smr1000-reli-50",
+            "type": "fill",
+            "source": "smr1000-reli-50",
+            "minzoom": 7,
+            "maxzoom": 10,
+            "paint": {
+                "fill-color": "rgba(173, 188, 199, 0.2)"
+            }
+        },
+
+
+
+
+
+
+
+
+
         {
             "id": "smr500-wton",
             "type": "fill",
             "source": "smr500-wton",
-            "minzoom": 9,
+            "minzoom": 10,
             "maxzoom": 11,
             "paint": {
                 "fill-color": "rgb(205, 230, 190)"
@@ -193,7 +310,7 @@
             "id": "smr500-gton-245",
             "type": "fill",
             "source": "smr500-gton-245",
-            "minzoom": 9,
+            "minzoom": 10,
             "maxzoom": 11,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.04)"
@@ -203,7 +320,7 @@
             "id": "smr500-gton-235",
             "type": "fill",
             "source": "smr500-gton-235",
-            "minzoom": 9,
+            "minzoom": 10,
             "maxzoom": 11,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.04)"
@@ -213,7 +330,7 @@
             "id": "smr500-reli-200",
             "type": "fill",
             "source": "smr500-reli-200",
-            "minzoom": 9,
+            "minzoom": 10,
             "maxzoom": 11,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
@@ -223,7 +340,7 @@
             "id": "smr500-reli-150",
             "type": "fill",
             "source": "smr500-reli-150",
-            "minzoom": 9,
+            "minzoom": 10,
             "maxzoom": 11,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
@@ -233,7 +350,7 @@
             "id": "smr500-reli-100",
             "type": "fill",
             "source": "smr500-reli-100",
-            "minzoom": 9,
+            "minzoom": 10,
             "maxzoom": 11,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
@@ -243,12 +360,22 @@
             "id": "smr500-reli-50",
             "type": "fill",
             "source": "smr500-reli-50",
-            "minzoom": 9,
+            "minzoom": 10,
             "maxzoom": 11,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
         },
+
+
+
+
+
+
+
+
+
+
         {
             "id": "smr200-wton",
             "type": "fill",
