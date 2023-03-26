@@ -181,7 +181,7 @@
             "type": "fill",
             "source": "smr200-wton",
             "minzoom": 9,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "paint": {
                 "fill-color": "rgb(205, 230, 190)"
             }
@@ -191,7 +191,7 @@
             "type": "fill",
             "source": "smr200-gton-200",
             "minzoom": 9,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -201,7 +201,7 @@
             "type": "fill",
             "source": "smr200-gton-150",
             "minzoom": 9,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -211,7 +211,7 @@
             "type": "fill",
             "source": "smr200-gton-100",
             "minzoom": 9,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -221,7 +221,7 @@
             "type": "fill",
             "source": "smr200-reli-200",
             "minzoom": 9,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -231,7 +231,7 @@
             "type": "fill",
             "source": "smr200-reli-150",
             "minzoom": 9,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -241,7 +241,7 @@
             "type": "fill",
             "source": "smr200-reli-100",
             "minzoom": 9,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -251,7 +251,7 @@
             "type": "fill",
             "source": "smr200-reli-50",
             "minzoom": 9,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -266,8 +266,9 @@
         {
             "id": "smr100-wton",
             "type": "fill",
-            "source": "smr100-wton",            "minzoom": 11,
-            "maxzoom": 12,
+            "source": "smr100-wton",
+            "minzoom": 12,
+            "maxzoom": 13,
             "paint": {
                 "fill-color": "rgb(205, 230, 190)"
             }
@@ -276,8 +277,8 @@
             "id": "smr100-gton-200",
             "type": "fill",
             "source": "smr100-gton-200",
-            "minzoom": 11,
-            "maxzoom": 12,
+            "minzoom": 12,
+            "maxzoom": 13,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -286,8 +287,8 @@
             "id": "smr100-gton-150",
             "type": "fill",
             "source": "smr100-gton-150",
-            "minzoom": 11,
-            "maxzoom": 12,
+            "minzoom": 12,
+            "maxzoom": 13,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -296,8 +297,8 @@
             "id": "smr100-gton-100",
             "type": "fill",
             "source": "smr100-gton-100",
-            "minzoom": 11,
-            "maxzoom": 12,
+            "minzoom": 12,
+            "maxzoom": 13,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -306,8 +307,8 @@
             "id": "smr100-reli-200",
             "type": "fill",
             "source": "smr100-reli-200",
-            "minzoom": 11,
-            "maxzoom": 12,
+            "minzoom": 12,
+            "maxzoom": 13,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -316,8 +317,8 @@
             "id": "smr100-reli-150",
             "type": "fill",
             "source": "smr100-reli-150",
-            "minzoom": 11,
-            "maxzoom": 12,
+            "minzoom": 12,
+            "maxzoom": 13,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -326,8 +327,8 @@
             "id": "smr100-reli-100",
             "type": "fill",
             "source": "smr100-reli-100",
-            "minzoom": 11,
-            "maxzoom": 12,
+            "minzoom": 12,
+            "maxzoom": 13,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -336,8 +337,8 @@
             "id": "smr100-reli-50",
             "type": "fill",
             "source": "smr100-reli-50",
-            "minzoom": 11,
-            "maxzoom": 12,
+            "minzoom": 12,
+            "maxzoom": 13,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -355,8 +356,8 @@
             "id": "smr50-wton",
             "type": "fill",
             "source": "smr50-wton",
-            "minzoom": 12,
-            "maxzoom": 13,
+            "minzoom": 13,
+            "maxzoom": 14,
             "paint": {
                 "fill-color": "rgb(205, 230, 190)"
             }
@@ -365,8 +366,8 @@
             "id": "smr50-gton-200",
             "type": "fill",
             "source": "smr50-gton-200",
-            "minzoom": 12,
-            "maxzoom": 13,
+            "minzoom": 13,
+            "maxzoom": 14,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -375,8 +376,8 @@
             "id": "smr50-gton-150",
             "type": "fill",
             "source": "smr50-gton-150",
-            "minzoom": 12,
-            "maxzoom": 13,
+            "minzoom": 13,
+            "maxzoom": 14,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -385,8 +386,8 @@
             "id": "smr50-gton-100",
             "type": "fill",
             "source": "smr50-gton-100",
-            "minzoom": 12,
-            "maxzoom": 13,
+            "minzoom": 13,
+            "maxzoom": 14,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -395,8 +396,8 @@
             "id": "smr50-reli-200",
             "type": "fill",
             "source": "smr50-reli-200",
-            "minzoom": 12,
-            "maxzoom": 13,
+            "minzoom": 13,
+            "maxzoom": 14,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -405,8 +406,8 @@
             "id": "smr50-reli-150",
             "type": "fill",
             "source": "smr50-reli-150",
-            "minzoom": 12,
-            "maxzoom": 13,
+            "minzoom": 13,
+            "maxzoom": 14,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -415,8 +416,8 @@
             "id": "smr50-reli-100",
             "type": "fill",
             "source": "smr50-reli-100",
-            "minzoom": 12,
-            "maxzoom": 13,
+            "minzoom": 13,
+            "maxzoom": 14,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -425,8 +426,8 @@
             "id": "smr50-reli-50",
             "type": "fill",
             "source": "smr50-reli-50",
-            "minzoom": 12,
-            "maxzoom": 13,
+            "minzoom": 13,
+            "maxzoom": 14,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -448,7 +449,7 @@
             "id": "smr25-wton",
             "type": "fill",
             "source": "smr25-wton",
-            "minzoom": 13,
+            "minzoom": 14,
             "paint": {
                 "fill-color": "rgb(205, 230, 190)"
             }
@@ -457,7 +458,7 @@
             "id": "smr25-gton-200",
             "type": "fill",
             "source": "smr25-gton-200",
-            "minzoom": 13,
+            "minzoom": 14,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -466,7 +467,7 @@
             "id": "smr25-gton-150",
             "type": "fill",
             "source": "smr25-gton-150",
-            "minzoom": 13,
+            "minzoom": 14,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -475,7 +476,7 @@
             "id": "smr25-gton-100",
             "type": "fill",
             "source": "smr25-gton-100",
-            "minzoom": 13,
+            "minzoom": 14,
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.2)"
             }
@@ -484,7 +485,7 @@
             "id": "smr25-reli-200",
             "type": "fill",
             "source": "smr25-reli-200",
-            "minzoom": 13,
+            "minzoom": 14,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -493,7 +494,7 @@
             "id": "smr25-reli-150",
             "type": "fill",
             "source": "smr25-reli-150",
-            "minzoom": 13,
+            "minzoom": 14,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -502,7 +503,7 @@
             "id": "smr25-reli-100",
             "type": "fill",
             "source": "smr25-reli-100",
-            "minzoom": 13,
+            "minzoom": 14,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
@@ -511,7 +512,7 @@
             "id": "smr25-reli-50",
             "type": "fill",
             "source": "smr25-reli-50",
-            "minzoom": 13,
+            "minzoom": 14,
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.2)"
             }
