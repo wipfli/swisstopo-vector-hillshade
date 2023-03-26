@@ -218,6 +218,20 @@
 
 
         {
+            "id": "wood",
+            "type": "fill",
+            "source": "swissmap",
+            "source-layer": "wood",
+            "minzoom": 7,
+            "maxzoom": 10,
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "fill-color": "rgb(205, 230, 190)"
+            }
+        },
+        {
             "id": "smr1000-gton-200",
             "type": "fill",
             "source": "smr1000-gton-200",
