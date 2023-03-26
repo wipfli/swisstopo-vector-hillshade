@@ -941,7 +941,7 @@
                 "visibility": "visible"
             },
             "paint": {
-                "fill-color": "#f1f3f4"
+                "fill-color": "black"
             }
         },
         {
