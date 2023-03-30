@@ -22,17 +22,9 @@ https://wipfli.github.io/swisstopo-vector-hillshade/swissmap
 
 ## Source Data
 
-Download sample data from [swisstopo](https://www.swisstopo.admin.ch/de/geodata/maps/smr/smr100.html).
+Download sample data from [swisstopo](https://www.swisstopo.admin.ch/de/geodata/maps/smr/smr100.html). For the full map data, contact swisstopo directly.
 
 The file contains raster files for the different layers of the swisstopo map. We use the following layers:
-
-### SMR100_LV95_WTON_Mosaic.tif Waldton (forest tone)
-
-Color: `rgb(205, 230, 190)`
-
-Opacity mask:
-
-<img src="SMR100_LV95_WTON_Mosaic.png" width=450>
 
 ### SMR100_LV95_GTON_Mosaic.tif: Gelbton (yellow tone)
 
@@ -53,18 +45,15 @@ Opacity mask:
 These opacity masks were hand-drawn I think by Swiss cartographers in the past...
 
 
-## Vectorization with QGIS
+## Vectorization with GDAL
 
-The masks have 255 grayscale levels, we group them into bins and vectorize them in QGIS with
+```
+python3 script.py
+python3 merge.py
+```
 
-* import gton raster in qgis
-* set raster layer crs to LV95
-* reclassify by table
-* set thresholds to 0 - 200 -> 200, 200 - 255 -> 255
-* polygonize
-* extract by expression
-* DN = 200 and $area > 5000 
-* simplify douglas peucker tolerance 50
-* export layer as geojson save as gton-200.geojson
+## Tippecanoe
 
-similar for RELI, and WTON
+```
+tippecanoe -Z 10 -z 10 -o swisstopo-vector-hillshade.pmtiles reli.geojson gton.geojson
+```

@@ -7,6 +7,7 @@
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <script src="https://unpkg.com/pmtiles@2.7.1/dist/index.js"></script>
     <style>
         body {
             margin: 0;
@@ -25,12 +26,20 @@
 <body>
     <div id="map"></div>
     <script>
-        var map = new maplibregl.Map({
-            container: 'map', // container id
-            style: 'swissmap.json', // style URL
-            center: [7.84611, 46.68259], // starting position [lng, lat]
-            zoom: 12, // starting zoom
-            hash: true
+        let protocol = new pmtiles.Protocol();
+        maplibregl.addProtocol("pmtiles", protocol.tile);
+        let PMTILES_URL = "swisstopo-vector-hillshade.pmtiles";
+        const p = new pmtiles.PMTiles(PMTILES_URL)
+        protocol.add(p);
+
+        p.getHeader().then(h => {
+            const map = new maplibregl.Map({
+                container: 'map',
+                center: [7.84611, 46.68259], // starting position [lng, lat]
+                zoom: 12, // starting zoom
+                hash: true,
+                style: "swissmap.json"
+            });
         });
     </script>
 
