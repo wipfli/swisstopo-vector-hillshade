@@ -233,20 +233,7 @@
                 ]
             },
             "paint": {
-                "line-color": [
-                    "match",
-                    [
-                        "get",
-                        "line-color"
-                    ],
-                    "#fab724",
-                    "darkgray",
-                    "#feefc3",
-                    "white",
-                    "#FCD374",
-                    "darkgray",
-                    ["get", "line-color"]
-                ],
+                "line-color": ["get", "line-color"],
                 "line-width": [
                     "interpolate",
                     [
