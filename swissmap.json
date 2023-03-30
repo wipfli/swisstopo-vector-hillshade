@@ -12,7 +12,8 @@
         },
         "swisstopo-vector-hillshade": {
             "type": "vector",
-            "url": "pmtiles://swisstopo-vector-hillshade.pmtiles"
+            "url": "pmtiles://swisstopo-vector-hillshade.pmtiles",
+            "attribution": "<a href=\"https://geo.admin.ch\">© swisstopo</a>"
         }
     },
     "glyphs": "https://wipfli.github.io/swiss-map/font/{fontstack}/{range}.pbf",
