@@ -78,6 +78,6 @@ Raster Source SMR100: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR100
 
 Raster Source SMR50: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR50.zip (15.2 GB)
 
-Raster Source SMR25: 
+Raster Source SMR25: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR25.zip (46.3 GB)
 
 Resulting MBTiles file: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/swisstopo-vector-hillshade.mbtiles (757 MB)
