@@ -30,7 +30,7 @@ https://wipfli.github.io/swisstopo-vector-hillshade/swisstopo
 
 ## Source Data
 
-Based on data from swisstopo. Usage terms see https://www.swisstopo.admin.ch/en/home/meta/conditions/geodata/ogd.html. See Downloads for links to the Swiss Map Raster maps.
+Based on data from swisstopo. See Downloads for links to the Swiss Map Raster maps.
 
 ### SMR100_LV95_GTON_Mosaic.tif: Gelbton (yellow tone)
 
@@ -66,8 +66,18 @@ python3 tiles.py
 
 ## Downloads
 
+Usage terms of swisstopo data apply, see https://www.swisstopo.admin.ch/en/home/meta/conditions/geodata/ogd.html.
+
 Raster Source SMR1000: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR1000.zip (314 MB)
 
-Raster Source SMR500: 
+Raster Source SMR500: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR500.zip (474 MB)
+
+Raster Source SMR200: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR200.zip (1.85 GB)
+
+Raster Source SMR100: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR100.zip (4.62 GB)
+
+Raster Source SMR50: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR50.zip (15.2 GB)
+
+Raster Source SMR25: 
 
 Resulting MBTiles file: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/swisstopo-vector-hillshade.mbtiles (757 MB)
