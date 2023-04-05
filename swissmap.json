@@ -12,7 +12,7 @@
         },
         "swisstopo-vector-hillshade": {
             "type": "vector",
-            "url": "pmtiles://swisstopo-vector-hillshade.pmtiles",
+            "url": "https://wipfli.github.io/swiss-map/tilejson-swisstopo-vector-hillshade.json",
             "attribution": "<a href=\"https://geo.admin.ch\">© swisstopo</a>"
         }
     },
@@ -41,19 +41,19 @@
             }
         },
         {
-            "id": "gton",
+            "id": "GTON",
             "type": "fill",
             "source": "swisstopo-vector-hillshade",
-            "source-layer": "gton",
+            "source-layer": "GTON",
             "paint": {
                 "fill-color": "rgba(255, 255, 228, 0.125)"
             }
         },
         {
-            "id": "reli",
+            "id": "RELI",
             "type": "fill",
             "source": "swisstopo-vector-hillshade",
-            "source-layer": "reli",
+            "source-layer": "RELI",
             "paint": {
                 "fill-color": "rgba(173, 188, 199, 0.125)"
             }

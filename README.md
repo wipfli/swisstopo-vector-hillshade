@@ -20,11 +20,17 @@ https://wipfli.github.io/swisstopo-vector-hillshade/swissmap
     <img src="screenshot-swissmap.png" width=450>
 </a>
 
+### Hillshade and swisstopo Light Base Map Overlay
+
+https://wipfli.github.io/swisstopo-vector-hillshade/swisstopo
+
+<a href="https://wipfli.github.io/swisstopo-vector-hillshade/swisstopo">
+    <img src="screenshot-swisstopo.png" width=450>
+</a>
+
 ## Source Data
 
-Download sample data from [swisstopo](https://www.swisstopo.admin.ch/de/geodata/maps/smr/smr100.html). For the full map data, contact swisstopo directly.
-
-The file contains raster files for the different layers of the swisstopo map. We use the following layers:
+Based on data from swisstopo. Usage terms see https://www.swisstopo.admin.ch/en/home/meta/conditions/geodata/ogd.html. See Downloads for links to the Swiss Map Raster maps.
 
 ### SMR100_LV95_GTON_Mosaic.tif: Gelbton (yellow tone)
 
@@ -55,5 +61,13 @@ python3 merge.py
 ## Tippecanoe
 
 ```
-tippecanoe -Z 10 -z 10 -o swisstopo-vector-hillshade.pmtiles reli.geojson gton.geojson
+python3 tiles.py
 ```
+
+## Downloads
+
+Raster Source SMR1000: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/SMR1000.zip (314 MB)
+
+Raster Source SMR500: 
+
+Resulting MBTiles file: https://pub-726b01260c98468a9387cc0dfcb7386b.r2.dev/swisstopo-vector-hillshade.mbtiles (757 MB)
